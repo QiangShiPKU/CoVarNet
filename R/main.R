@@ -114,11 +114,11 @@ creNet <- function(node, edge, n = 10){
   # graph
   graph <- igraph::graph_from_data_frame(edge, directed = FALSE)
   col_fun <- circlize::colorRamp2(
-    breaks = stats::quantile(E(graph)$spe, probs = seq(0, 1, length = 6)),
+    breaks = stats::quantile(igraph::E(graph)$spe, probs = seq(0, 1, length = 6)),
     colors = ggsci::pal_material(palette = "grey", n = 10)(10)[3:8]
   )
-  E(graph)$color <- col_fun(igraph::E(graph)$spe)
-  E(graph)$width <- 1
+  igraph::E(graph)$color <- col_fun(igraph::E(graph)$spe)
+  igraph::E(graph)$width <- 1
 
   # plot
   par(mfrow = c(2, 6), mar = c(0, 0, 0, 0) + 0.5) # 3，4
