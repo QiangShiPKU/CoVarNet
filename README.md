@@ -4,6 +4,8 @@ CoVarNet is a method that uses the frequencies of individual cell types/subsets 
 ## Installation 
 ```
 devtools::install_github(repo = "https://github.com/QiangShiPKU/CoVarNet")
+library(CoVarNet)
+library(NMF)
 ```
 
 ## **Quick start**
