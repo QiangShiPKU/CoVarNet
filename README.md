@@ -26,7 +26,9 @@ edge <- getEdge(mat)
 **Output:** a data frame listing several attributes of network edges.
 
 ### 3. Visualize networks
-```creNet(node, mat)```
+```
+creNet(node, mat)
+```
 **Output:** visualize networks.
 
 ## **Requirements**
