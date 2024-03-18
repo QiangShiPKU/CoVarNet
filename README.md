@@ -13,7 +13,7 @@ library(NMF)
 ```
 node <- getNode(mat, K = 12)
 ```
-**Input:** a matrix (mat) indicating the frequencies of individual cell types/subsets (rows) across samples (columns) and a integer (K) indicating the expected number of CMs to be identified. The example dataset can be get by
+**Input:** a matrix (mat) indicating the frequencies of individual cell types/subsets (rows) across samples (columns) and a integer (K) indicating the expected number of CMs to be identified. The example dataset can be accessed by
 ```
 mat <- mat_freq_raw
 ```
