@@ -1,0 +1,18 @@
+Package: CoVarNet
+Title: Identify multicellular network using scRNA_seq data
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Qiang", family = "Shi", 
+          email = "shiq@pku.edu.cn", role = c("aut", "cre"), 
+          comment = c(ORCID = "0000-0003-1851-773X")), 
+    person(given = "Yihan", family = "Chen", 
+          email = "chenyh2002@stu.pku.edu.cn", role = c("ctb"))
+    )
+Description: Identify multicellular network using scRNA_seq data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 3.5.0),
+Imports: NMF, dplyr, psych, reshape2, igraph, circlize, ggsci
+LazyData: true
