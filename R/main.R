@@ -117,7 +117,7 @@ creNet <- function(node, edge, n = 10){
     breaks = stats::quantile(E(graph)$spe, probs = seq(0, 1, length = 6)),
     colors = ggsci::pal_material(palette = "grey", n = 10)(10)[3:8]
   )
-  E(graph)$color <- col_fun(E(graph)$spe)
+  E(graph)$color <- col_fun(igraph::E(graph)$spe)
   E(graph)$width <- 1
 
   # plot
