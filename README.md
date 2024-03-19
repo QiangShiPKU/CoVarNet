@@ -27,7 +27,7 @@ edge <- getEdge(mat)
 
 ### 3. Visualize networks
 ```
-creNet(node, mat)
+creNet(node, edge)
 ```
 **Output:** visualize networks.
 
