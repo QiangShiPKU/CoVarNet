@@ -19,7 +19,7 @@ mat <- mat_freq_raw
 ```
 **Output:** a data frame listing nodes and weights for individual networks.
 
-### 2. Get edge of networks
+### 2. Get edges of networks
 ```
 edge <- getEdge(mat)
 ```
