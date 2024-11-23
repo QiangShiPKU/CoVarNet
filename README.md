@@ -10,8 +10,8 @@ library(CoVarNet)
 
 
 ## **Tutorials**
-* [Discovery of cellular modules in scRNA-seq data](./vignette/tutorial_discovery.html)
-* [Recovery of cellular modules in scRNA-seq data and spatial transcriptomics data](./vignette/tutorial_recovery.html)
+* [Discovery of cellular modules in scRNA-seq data](https://htmlpreview.github.io/?https://github.com/QiangShiPKU/CoVarNet/blob/main/vignette/tutorial_discovery.html)
+* [Recovery of cellular modules in scRNA-seq data and spatial transcriptomics data](https://htmlpreview.github.io/?https://github.com/QiangShiPKU/CoVarNet/blob/main/vignette/tutorial_recovery.html)
 
 
 ## **Requirements**
