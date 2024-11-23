@@ -1,4 +1,4 @@
-# **Welcome to the CoVarNet!!**
+# **Welcome to the CoVarNet!**
 CoVarNet is a computational framework aiming to unravel the coordination among multiple cell types by analyzing the covariance in the frequencies of cell types across various samples.
 
 
