@@ -1,0 +1,36 @@
+Package: CoVarNet
+Title: Multicellular co-occurring network
+Version: 0.2.0
+Authors@R: c(
+    person(given = "Qiang", family = "Shi", 
+          email = "shiq@pku.edu.cn", role = c("aut", "cre"), 
+          comment = c(ORCID = "0000-0003-1851-773X")),
+    person(given = "Yihan", family = "Chen", 
+          email = "chenyh2002@stu.pku.edu.cn", role = c("ctb"))
+    )
+Description: CoVarNet is a computational framework aiming to unravel the coordination among multiple cell types by analyzing the covariance in the frequencies of cell types across various samples.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+biocViews:
+Imports: 
+    circlize,
+    cluster,
+    ComplexHeatmap,
+    ggsci,
+    grid,
+    psych,
+    RColorBrewer,
+    viridis,
+    tidytext,
+    dendextend,
+    sp,
+    spdep
+Depends: 
+    dplyr,
+    ggplot2,
+    igraph,
+    NMF,
+    Seurat
+LazyData: true
