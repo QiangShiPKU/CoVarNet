@@ -323,7 +323,7 @@ cm_network<-function(NMFres,Corres,...){
 
 
 
-#' Recover cellular modulrs in scRNA_seq data
+#' Recover cellular modules in scRNA_seq data
 #' @description Utilize the reference file to recover the sample CMT in scRNA_seq data.
 #' @param ref The parameter "ref" is the result of the function cm_network, which serves as the reference file of cellular modules recovery.
 #' @param mat_fq Normalized sample-cell frequency matrix.
